@@ -96,7 +96,7 @@ public class LihatData extends AppCompatActivity {
             Toast.makeText(this, "No Data Found", Toast.LENGTH_LONG).show();
         } else {
             while (data.moveToNext()) {
-                listData.add("ID: " + data.getString(0) + "\nNama: " + data.getString(1) + "\nUmur: " + data.getString(2));
+                listData.add("ID: " + data.getString(0) + "\nNama: " + data.getString(1) + "\nUmur: " + data.getString(2) + "\nMotto: " + data.getString(3));
             }
         }
     }
