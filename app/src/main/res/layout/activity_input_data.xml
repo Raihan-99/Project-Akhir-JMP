@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30sp"
+    tools:context=".InputData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180sp"
+            android:src="@drawable/baseline_person_add_24"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/nama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_account_circle_24"
+                android:drawablePadding="15dp"
+                android:hint="Nama"
+                android:textSize="18dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginTop="15dp">
+            <EditText
+                android:id="@+id/umur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_123_24"
+                android:drawablePadding="15dp"
+                android:hint="Umur"
+                android:textSize="18dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginTop="15dp">
+            <EditText
+                android:id="@+id/motto"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:drawableStart="@drawable/baseline_add_comment_24"
+                android:drawablePadding="15dp"
+                android:hint="Motto"
+                android:textSize="18dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnInput"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/costum_button"
+            android:text="INPUT DATA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
