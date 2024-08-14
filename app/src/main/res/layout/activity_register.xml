@@ -39,7 +39,7 @@
                 android:layout_marginTop="10dp"
                 android:drawableStart="@drawable/baseline_person_24"
                 android:drawablePadding="15dp"
-                android:hint="Nama Lengkap"
+                android:hint="Username"
                 android:textSize="18dp"/>
         </com.google.android.material.textfield.TextInputLayout>
 

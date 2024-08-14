@@ -69,7 +69,7 @@
                 android:drawableStart="@drawable/baseline_lock_24"
                 android:drawablePadding="15dp"
                 android:hint="Password"
-                android:inputType="textPassword" />
+                android:inputType="textVisiblePassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ProgressBar
